@@ -1,0 +1,90 @@
+/* */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+main{
+	
+	margin:50px auto ;
+	width:50%;
+    /* height:700px; */
+}
+#name{
+	
+	font-weight:400;
+	font-size:15px;
+}
+#crip{
+	background-color: hsl(31, 77%, 52%);
+	float:left;
+	width:33.33%;
+}
+#crup{
+	background-color: hsl(184, 100%, 22%);
+	float:left;
+	width:33.33%;
+}
+#crop{
+   background-color: hsl(179, 100%, 13%);
+   float:left;
+	width:33.33%;   
+}
+section{
+	content:"";
+	display:inline-block;
+	clear:left;
+	
+}
+p{
+	width:100px;
+	padding:10px 0px 5px 20px;
+	margin:10px 0px;
+	color:hsla(0, 0%, 100%, 0.75);
+	  font-family: "Lexend Deca", sans-serif;
+	  font-size:7px;
+	  font-weight:350;
+	  line-height:1.5;
+
+}
+h1{
+	color:hsla(0, 0%, 100%, 0.75);
+}
+div {
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 20px;
+	/* background-color:#fff; */
+	border-radius:25px;
+	margin:20px 0px;
+	font-family:  "Figtree", sans-serif;
+	color:hsl(257, 40%, 49%);
+	font-size:0.9rem;
+cursor:pointer;	
+}
+#se:hover{
+border:3px solid white;
+/* display:hidden; */
+}
+#su:hover{
+border: 3px solid #fff;
+}
+#lu:hover{
+	border:3px solid #fff;
+}
+#se:active{
+background-color:hsl(31, 77%, 52%);
+}
+#su:active{
+background-color:  hsl(184, 100%, 22%);
+}
+#lu:active{
+	background-color: hsl(179, 100%, 13%);
+}
+a {
+	text-decoration: none;
+	color:#fff;
+	font-size:15px;
+}
+
